@@ -1,0 +1,186 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* MAIN HEADING */
+
+.heading1{
+    color: blue;
+    background: rgb(209, 202, 202);
+    font-size: 60px;
+    font-family: sans-serif;
+    text-justify: auto;
+    text-align: center;
+    padding: 2px 2px 2px 2px;
+    margin: 2px 2px 2px 2px;
+}
+
+
+/* NAV BAR */
+
+ul{
+    text-align: right;
+}
+
+ul li{
+    display: inline;
+    background: rgb(209, 202, 202);
+    color: blue;
+    font-size: larger;
+    text-transform: capitalize;
+    margin-right: 2px;
+}
+
+ul li:hover{
+    background: blue;
+    color: white;
+}
+
+ul li:active{
+    background: green;
+}
+
+/* BUTTONS */
+.button{
+    background: gray;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    text-decoration: none;
+}
+
+.button[type="submit"]{
+    background: gray;
+    color: white;
+    padding: 10px 15px;
+    margin: 30px;
+    border: none;
+}
+
+.button:hover{
+    background: green;
+    color: white;
+}
+
+/* BODY */
+
+div{
+    padding: 20px;
+    margin: 10px;
+}
+
+.heading2{
+    background: rgb(209, 202, 202);
+    color: blue;
+    font-size: 40px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.para1::first-letter{
+    font-size: 40px;
+}
+
+.heading3{
+    background: rgb(209, 202, 202);
+    color: blue;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.para3::first-letter{
+    font-size: 40px;
+}
+
+.heading4{
+    background: rgb(209, 202, 202);
+    color: blue;
+    font-size: 40px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.para4::first-letter{
+    font-size: 40px;
+}
+
+.heading5{
+    background: rgb(209, 202, 202);
+    color: blue;
+    font-size: 30px;
+    font-family: sans-serif;
+    text-align: left;
+}
+
+.para5::first-letter{
+    font-size: 40px;
+}
+
+/* IMAGES */
+
+img {
+    transition: all ease-in-out 0.5s;
+}
+
+img:hover{
+    transform: rotateZ(45deg);
+}
+
+.sky{
+    float: left;
+    padding: 5px;
+}
+
+.evans{
+    float: right;
+    padding: 5px;
+}
+
+.female{
+    float: left;
+    padding: 5px;
+}
+.campus{
+    float: right;
+    padding: 5px;
+}
+
+.heading6{
+    background: rgb(209, 202, 202);
+    color: blue;
+    font-size: 30px;
+    font-family: sans-serif;
+    text-align: right;
+}
+
+/* MY FORM */
+
+.form-section{
+    display: flex;
+    float: right;
+}
+
+.my-form{
+    float: right;
+    padding: 40px;
+}
+
+.my-form .form-group{
+    padding-bottom: 15px;
+}
+
+.my-form label{
+    display: block;
+}
+.my-form input[type="text"], .my-form textarea{
+    padding: 8px;
+    width: 100% ;
+}
+
+.copyright{
+    padding: 600px 5px;
+    float: left;
+}
